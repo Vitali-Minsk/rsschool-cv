@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Vitali-Minsk.github.io/rsschool-cv/cv
