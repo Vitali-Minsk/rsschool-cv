@@ -1,0 +1,87 @@
+body {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 1.2rem;
+    color: #fff;
+}
+
+.page {
+    max-width: 800px;
+    min-height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    background: #fff url(img/bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+}
+
+.name {
+    width: 70%;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.author {
+    display: block;
+}
+
+.main {
+    padding: 0 4rem 3rem;
+    line-height: 1.4rem;
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, .6);
+    font-weight: 300;
+}
+
+.title {
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.title span {
+    color: #2B7DED;
+}
+
+.icon {
+    margin-top: 10px;
+}
+
+@media (max-width: 540px) {
+
+    .author {
+        display: none;
+    }
+
+    .header {
+        padding: 1.6rem;
+    }
+
+    .content {
+        padding: 0 1.6rem 1.6rem;
+    }
+
+}
