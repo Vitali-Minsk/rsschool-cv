@@ -6,4 +6,4 @@
 5. no
 6. 1 2 3
 7. BSEU, Economy and management
-8. A1
+8. A2
